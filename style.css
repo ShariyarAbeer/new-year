@@ -49,12 +49,100 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding-right: 200px;
 }
 .person-section > img{
-    padding: 20px 100px;
+    padding: 20px 0px 10px 60px;
 }
 .failures > h1{
     font-size: 40px;
     font-weight: 700;
     padding: 20px 0px;
+    text-align: left;
+}
+.failures p{
+    font-size: 12px;
+    font-weight: 700;
+    color: #8a8a8a;
+    padding-bottom: 15px;
+    
+
+}
+/* plan-section */
+.plan-section{
+   
+    text-align: center;
+}
+.plan-section > h1{
+    font-size: 40px;
+    font-weight: 700;
+    padding: 50px 0px;
+  
+    
+}
+.plan-section h4 {
+    color: #8a8a8a;
+
+}
+.plan-group{
+    display: flex;
+    justify-content: space-around;
+
+    padding: 20px 50px 20px 50px;
+}
+
+/* positive-section */
+.positive-section{
+    text-align: start;
+
+    
+}
+
+.positive-div{
+   height: 300px;
+    background-image: url("./images/gradient1.png"), url("./images/watch.png");
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    margin: 20px 200px;
+}
+.positive-div h1{
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    padding: 70px 40px 20px 40px;
+}
+
+/* footer */
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 300px 20px 200px;
+    height: auto;
+    width: auto;
+    background-color: black;
+    color: white;
+    
+}
+footer p{
+    margin: 15px 0px;
+    font-size: 12px;
+    font-weight: 400px;
+}
+.footer-icons{
+    display: flex;
+    justify-content: start;
+    
+}
+
+.footer-icons img{
+    margin: 10px 20px 0px 0px;
+}
+
+footer textarea{
+    color: #8a8a8a;
+    padding: 15px 0px 0px 10px;
+    border-radius: 5px;
+    border: solid 1px white;
+    background-color: black;
+    margin: 30px 0px 10px 0px;
 }
